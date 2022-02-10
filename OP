@@ -49,7 +49,7 @@ char = plr.Character
 
 
 bullet = workspace[plr.Name]["HumanoidRootPart"]
-bullet.Transparency = 1
+bullet.Transparency = 0
 bhandle = bullet
 bullet.Massless = true
 
