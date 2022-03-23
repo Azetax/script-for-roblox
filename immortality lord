@@ -514,7 +514,7 @@ if LocalPlayer.Name == Username then
 		else
 			if Key_ == "F" then
 				Movement.Flying = not Movement.Flying
-				Movement.WalkSpeed= 16*S
+				Movement.WalkSpeed= 64*S
 				Movement.CFrame = CFrame.new(Movement.CFrame.Position)
 				Movement.Falling = false
 			elseif Key_ == "P" then
