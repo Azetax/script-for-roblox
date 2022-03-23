@@ -514,13 +514,13 @@ if LocalPlayer.Name == Username then
 		else
 			if Key_ == "F" then
 				Movement.Flying = not Movement.Flying
-				Movement.WalkSpeed= 8°*S
+				Movement.WalkSpeed= 16*S
 				Movement.CFrame = CFrame.new(Movement.CFrame.Position)
 				Movement.Falling = false
 			elseif Key_ == "P" then
 				Movement.CFrame = CFrame.new(0,100,0)
 				Movement.Falling = false
-			elseif Key_ == "O" then
+			elseif Key_ == "\\" then
 				Movement.CFrame = Movement.CFrame*CFrame.new(0,100,0)
 			end
 		end
@@ -821,7 +821,7 @@ pcall(function()
             v.Enabled = false
         end
     end
-    FLINGH.Transparency = 0.5
+    FLINGH.Transparency = 0
 end)
 spawn(function()
     local RunService = game:GetService("RunService")
