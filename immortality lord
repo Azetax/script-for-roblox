@@ -826,7 +826,7 @@ pcall(function()
             v.Enabled = false
         end
     end
-    FLINGH.Transparency = 1
+    FLINGH.Transparency = 0
 end)
 spawn(function()
     local RunService = game:GetService("RunService")
